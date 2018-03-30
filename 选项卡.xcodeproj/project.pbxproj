@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2144D51EC5914700BC9261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144D41EC5914700BC9261 /* main.m */; };
+		3A2144D81EC5914700BC9261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144D71EC5914700BC9261 /* AppDelegate.m */; };
+		3A2144DB1EC5914700BC9261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144DA1EC5914700BC9261 /* ViewController.m */; };
+		3A2144E01EC5914700BC9261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2144DF1EC5914700BC9261 /* Assets.xcassets */; };
+		3A2144E31EC5914700BC9261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2144E11EC5914700BC9261 /* LaunchScreen.storyboard */; };
+		3A2144EC1EC59DCB00BC9261 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144EB1EC59DCB00BC9261 /* CardViewController.m */; };
+		3A2144EF1EC5A22B00BC9261 /* CYAX_SelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144EE1EC5A22B00BC9261 /* CYAX_SelectView.m */; };
+		3A2144F61EC5BBAE00BC9261 /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144F51EC5BBAE00BC9261 /* CommentViewController.m */; };
+		3A2144F91EC5BBBE00BC9261 /* SystemNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144F81EC5BBBE00BC9261 /* SystemNoticeViewController.m */; };
+		3A2144FC1EC9882C00BC9261 /* message_icon_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2144FA1EC9882C00BC9261 /* message_icon_praise@2x.png */; };
+		3A2144FD1EC9882C00BC9261 /* message_icon_praise@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2144FB1EC9882C00BC9261 /* message_icon_praise@3x.png */; };
+		3A2145001EC98DEE00BC9261 /* TOPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2144FF1EC98DEE00BC9261 /* TOPCell.m */; };
+		3A2145031EC9929F00BC9261 /* bar_icon_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2145011EC9929F00BC9261 /* bar_icon_forward@2x.png */; };
+		3A2145041EC9929F00BC9261 /* bar_icon_forward@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2145021EC9929F00BC9261 /* bar_icon_forward@3x.png */; };
+		3A2145071EC9A01D00BC9261 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2145061EC9A01D00BC9261 /* MessageCell.m */; };
+		3A21450A1EC9A32F00BC9261 /* MyReceiveUPMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2145091EC9A32F00BC9261 /* MyReceiveUPMessageViewController.m */; };
+		3A21450D1EC9A7ED00BC9261 /* default_message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A21450B1EC9A7ED00BC9261 /* default_message@3x.png */; };
+		3A21450E1EC9A7ED00BC9261 /* default_message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A21450C1EC9A7ED00BC9261 /* default_message@2x.png */; };
+		3A2145111EC9A89900BC9261 /* NoTiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2145101EC9A89900BC9261 /* NoTiceView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A2144D01EC5914700BC9261 /* 选项卡.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "选项卡.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2144D41EC5914700BC9261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A2144D61EC5914700BC9261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A2144D71EC5914700BC9261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A2144D91EC5914700BC9261 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A2144DA1EC5914700BC9261 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A2144DF1EC5914700BC9261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2144E21EC5914700BC9261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2144E41EC5914700BC9261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2144EA1EC59DCB00BC9261 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		3A2144EB1EC59DCB00BC9261 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		3A2144ED1EC5A22B00BC9261 /* CYAX_SelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYAX_SelectView.h; sourceTree = "<group>"; };
+		3A2144EE1EC5A22B00BC9261 /* CYAX_SelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYAX_SelectView.m; sourceTree = "<group>"; };
+		3A2144F41EC5BBAE00BC9261 /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		3A2144F51EC5BBAE00BC9261 /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		3A2144F71EC5BBBE00BC9261 /* SystemNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemNoticeViewController.h; sourceTree = "<group>"; };
+		3A2144F81EC5BBBE00BC9261 /* SystemNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemNoticeViewController.m; sourceTree = "<group>"; };
+		3A2144FA1EC9882C00BC9261 /* message_icon_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_icon_praise@2x.png"; sourceTree = "<group>"; };
+		3A2144FB1EC9882C00BC9261 /* message_icon_praise@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message_icon_praise@3x.png"; sourceTree = "<group>"; };
+		3A2144FE1EC98DEE00BC9261 /* TOPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOPCell.h; sourceTree = "<group>"; };
+		3A2144FF1EC98DEE00BC9261 /* TOPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOPCell.m; sourceTree = "<group>"; };
+		3A2145011EC9929F00BC9261 /* bar_icon_forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_icon_forward@2x.png"; sourceTree = "<group>"; };
+		3A2145021EC9929F00BC9261 /* bar_icon_forward@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_icon_forward@3x.png"; sourceTree = "<group>"; };
+		3A2145051EC9A01D00BC9261 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		3A2145061EC9A01D00BC9261 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		3A2145081EC9A32F00BC9261 /* MyReceiveUPMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReceiveUPMessageViewController.h; sourceTree = "<group>"; };
+		3A2145091EC9A32F00BC9261 /* MyReceiveUPMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReceiveUPMessageViewController.m; sourceTree = "<group>"; };
+		3A21450B1EC9A7ED00BC9261 /* default_message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_message@3x.png"; sourceTree = "<group>"; };
+		3A21450C1EC9A7ED00BC9261 /* default_message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_message@2x.png"; sourceTree = "<group>"; };
+		3A21450F1EC9A89900BC9261 /* NoTiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoTiceView.h; sourceTree = "<group>"; };
+		3A2145101EC9A89900BC9261 /* NoTiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoTiceView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2144CD1EC5914700BC9261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2144C71EC5914700BC9261 = {
+			isa = PBXGroup;
+			children = (
+				3A2144D21EC5914700BC9261 /* 选项卡 */,
+				3A2144D11EC5914700BC9261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2144D11EC5914700BC9261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2144D01EC5914700BC9261 /* 选项卡.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2144D21EC5914700BC9261 /* 选项卡 */ = {
+			isa = PBXGroup;
+			children = (
+				3A21450B1EC9A7ED00BC9261 /* default_message@3x.png */,
+				3A21450C1EC9A7ED00BC9261 /* default_message@2x.png */,
+				3A2145011EC9929F00BC9261 /* bar_icon_forward@2x.png */,
+				3A2145021EC9929F00BC9261 /* bar_icon_forward@3x.png */,
+				3A2144FA1EC9882C00BC9261 /* message_icon_praise@2x.png */,
+				3A2144FB1EC9882C00BC9261 /* message_icon_praise@3x.png */,
+				3A2144D61EC5914700BC9261 /* AppDelegate.h */,
+				3A2144D71EC5914700BC9261 /* AppDelegate.m */,
+				3A2144D91EC5914700BC9261 /* ViewController.h */,
+				3A2144DA1EC5914700BC9261 /* ViewController.m */,
+				3A2144EA1EC59DCB00BC9261 /* CardViewController.h */,
+				3A2144EB1EC59DCB00BC9261 /* CardViewController.m */,
+				3A2144F41EC5BBAE00BC9261 /* CommentViewController.h */,
+				3A2144F51EC5BBAE00BC9261 /* CommentViewController.m */,
+				3A2145081EC9A32F00BC9261 /* MyReceiveUPMessageViewController.h */,
+				3A2145091EC9A32F00BC9261 /* MyReceiveUPMessageViewController.m */,
+				3A2144FE1EC98DEE00BC9261 /* TOPCell.h */,
+				3A2144FF1EC98DEE00BC9261 /* TOPCell.m */,
+				3A2145051EC9A01D00BC9261 /* MessageCell.h */,
+				3A2145061EC9A01D00BC9261 /* MessageCell.m */,
+				3A2144F71EC5BBBE00BC9261 /* SystemNoticeViewController.h */,
+				3A2144F81EC5BBBE00BC9261 /* SystemNoticeViewController.m */,
+				3A2144ED1EC5A22B00BC9261 /* CYAX_SelectView.h */,
+				3A2144EE1EC5A22B00BC9261 /* CYAX_SelectView.m */,
+				3A21450F1EC9A89900BC9261 /* NoTiceView.h */,
+				3A2145101EC9A89900BC9261 /* NoTiceView.m */,
+				3A2144DF1EC5914700BC9261 /* Assets.xcassets */,
+				3A2144E11EC5914700BC9261 /* LaunchScreen.storyboard */,
+				3A2144E41EC5914700BC9261 /* Info.plist */,
+				3A2144D31EC5914700BC9261 /* Supporting Files */,
+			);
+			path = "选项卡";
+			sourceTree = "<group>";
+		};
+		3A2144D31EC5914700BC9261 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A2144D41EC5914700BC9261 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2144CF1EC5914700BC9261 /* 选项卡 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2144E71EC5914700BC9261 /* Build configuration list for PBXNativeTarget "选项卡" */;
+			buildPhases = (
+				3A2144CC1EC5914700BC9261 /* Sources */,
+				3A2144CD1EC5914700BC9261 /* Frameworks */,
+				3A2144CE1EC5914700BC9261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "选项卡";
+			productName = "选项卡";
+			productReference = 3A2144D01EC5914700BC9261 /* 选项卡.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2144C81EC5914700BC9261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CYAX_BOY;
+				TargetAttributes = {
+					3A2144CF1EC5914700BC9261 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3L5579EWR5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A2144CB1EC5914700BC9261 /* Build configuration list for PBXProject "选项卡" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2144C71EC5914700BC9261;
+			productRefGroup = 3A2144D11EC5914700BC9261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2144CF1EC5914700BC9261 /* 选项卡 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2144CE1EC5914700BC9261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2144FD1EC9882C00BC9261 /* message_icon_praise@3x.png in Resources */,
+				3A2144FC1EC9882C00BC9261 /* message_icon_praise@2x.png in Resources */,
+				3A2145041EC9929F00BC9261 /* bar_icon_forward@3x.png in Resources */,
+				3A2144E31EC5914700BC9261 /* LaunchScreen.storyboard in Resources */,
+				3A21450E1EC9A7ED00BC9261 /* default_message@2x.png in Resources */,
+				3A21450D1EC9A7ED00BC9261 /* default_message@3x.png in Resources */,
+				3A2144E01EC5914700BC9261 /* Assets.xcassets in Resources */,
+				3A2145031EC9929F00BC9261 /* bar_icon_forward@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2144CC1EC5914700BC9261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2144F61EC5BBAE00BC9261 /* CommentViewController.m in Sources */,
+				3A2144F91EC5BBBE00BC9261 /* SystemNoticeViewController.m in Sources */,
+				3A2144EF1EC5A22B00BC9261 /* CYAX_SelectView.m in Sources */,
+				3A2144EC1EC59DCB00BC9261 /* CardViewController.m in Sources */,
+				3A2144DB1EC5914700BC9261 /* ViewController.m in Sources */,
+				3A2144D81EC5914700BC9261 /* AppDelegate.m in Sources */,
+				3A2145071EC9A01D00BC9261 /* MessageCell.m in Sources */,
+				3A2144D51EC5914700BC9261 /* main.m in Sources */,
+				3A2145001EC98DEE00BC9261 /* TOPCell.m in Sources */,
+				3A21450A1EC9A32F00BC9261 /* MyReceiveUPMessageViewController.m in Sources */,
+				3A2145111EC9A89900BC9261 /* NoTiceView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A2144E11EC5914700BC9261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2144E21EC5914700BC9261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A2144E51EC5914700BC9261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A2144E61EC5914700BC9261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2144E81EC5914700BC9261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L5579EWR5;
+				INFOPLIST_FILE = "选项卡/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eee.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A2144E91EC5914700BC9261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L5579EWR5;
+				INFOPLIST_FILE = "选项卡/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eee.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2144CB1EC5914700BC9261 /* Build configuration list for PBXProject "选项卡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2144E51EC5914700BC9261 /* Debug */,
+				3A2144E61EC5914700BC9261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2144E71EC5914700BC9261 /* Build configuration list for PBXNativeTarget "选项卡" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2144E81EC5914700BC9261 /* Debug */,
+				3A2144E91EC5914700BC9261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2144C81EC5914700BC9261 /* Project object */;
+}
